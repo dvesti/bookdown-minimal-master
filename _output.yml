@@ -3,10 +3,10 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Book</a></li>
+        <li><a href="https://dvesti.github.io/bookdown-demo-dvesti">Малая книга на Bookdown</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
+    edit: https://github.com/dvesti/bookdown-demo-dvesti/tree/main/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
