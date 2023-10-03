@@ -1,8 +1,9 @@
 ---
 title: "A Book"
 author: "Frida Gomam"
-site: bookdown::bookdown_site
 #lang: "ru"
+site: bookdown::bookdown_site
+documentclass: book
 bibliography: [book.bib, packages.bib]
 description: |
   This is a minimal example of using the bookdown package to write a book.
@@ -10,11 +11,9 @@ description: |
   set in the _output.yml file.
 link-citations: yes
 github-repo: https://dvesti.github.io/bookdown-minimal-master
-documentclass: book
 output:
   bookdown::gitbook: default
   bookdown::pdf_book: default
-output_dir: "docs" 
 mainfont: Georgia
 monofont: "Courier New"
 monofontoptions: "Scale=0.7" #"Scale=0.7"
@@ -26,10 +25,11 @@ geometry:
   - right=0.7in
   - bottom=1in 
   
-#header-includes:  
-#- \usepackage{indentfirst}
-#- \setlength\parindent{12.7mm}
-#- \pagestyle{plain} # номер страницы внизу по центру   
+header-includes:  
+  - \usepackage{indentfirst}
+  - \setlength\parindent{12.7mm}
+  - \pagestyle{plain} # номер страницы внизу по центру  
+output_dir: "docs" 
 ---
 
 # Hello World
