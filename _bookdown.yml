@@ -1,0 +1,10 @@
+book_filename: "bookdown-minimal-master"
+language:
+  ui:
+    chapter_name: "Глава "
+#rmd_files: [
+#  "index.Rmd",
+#  "setup.Rmd",
+#  "write.Rmd"]
+delete_merged_file: true
+output_dir: "docs"
